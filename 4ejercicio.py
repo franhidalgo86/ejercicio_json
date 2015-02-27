@@ -5,3 +5,5 @@ fich.close()
 contador=0
 for corre in asociaciones ["directorios"]["directorio"]:
 	if "@" in corre["correo-electronico"]:
+		contador=contador+1
+print contador
