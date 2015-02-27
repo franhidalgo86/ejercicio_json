@@ -4,4 +4,4 @@ asociaciones=json.load(fich)
 fich.close()
 socios=raw_input(int("Mete un numero de socios: "))
 for soc in asociaciones ["directorios"]["directorio"]:
-	print soc["descripcion"]["content"]>=socios
+	print soc["descripcion"]["content"]>=socios 
