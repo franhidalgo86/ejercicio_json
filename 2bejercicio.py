@@ -7,4 +7,4 @@ for a in asociaciones ["directorios"]["directorio"]:
 asociacion=raw_input("Mete una Asociacion: ")
 for pre in asociaciones:
 	if pre["nombre"]["content"]==asociacion:
-		print pre["descripcion"]["content"]
+		print pre["descripcion"]["content"] 
